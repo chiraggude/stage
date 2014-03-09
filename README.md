@@ -8,6 +8,7 @@ Built with WordPress 3.8.1 and Bootstrap 3.1.1
 * Live demo website: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 * Screenshots: [http://#/](http://roots.io/)
 
+## Features
 
 ## Installation & Setup
 ```
@@ -26,22 +27,28 @@ Edit `lib/config.php`
 ## FAQ's 
 What is the theme's file structure?
 
+Who is this theme aimed at?
+This theme is best suited for experienced web designers and developers familiar with WordPress.
 
-## Features
+What was the inspiration behind building this theme?
+I needed a starter theme to serve as the code base for all my WordPress projects. There are lots of great theme frameworks already available, but none suited my particular needs. This theme is my first attempt at forging a framework that fits my particular tastes. Perhaps other like-minded developers will like it too.
+
+
+
 
 
 ## Road Map
 
-1: Options Panel with Redux Framework
+1: Build theme options panel with Redux Framework
 
 2: Add native WordPress support for:
 * Featured Content
 * Post-Formats
 * Custom Backgrounds
 * Visual Editor Styles
+* Internationalization
 
 
-## Thanks
 
 
 ===================
