@@ -5,9 +5,9 @@ Sleek and modern starter theme built with Bootstrap 3.1.1. This theme is packed 
 Built with WordPress 3.8.1 and Bootstrap 3.1.1
 
 ## Demo & Screenshots
-* Live demo website: [https://#/](https://#)
+* Live demo website: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 * Screenshots: [http://#/](http://roots.io/)
-* Turizon: [http://turizon.in](http://turizon.in)
+
 
 ## Installation & Setup
 ```
@@ -46,6 +46,8 @@ What is the theme's file structure?
 
 ===================
 That's it folks!
+
+Turizon: [http://turizon.in](http://turizon.in)
 
 
 
