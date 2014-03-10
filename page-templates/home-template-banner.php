@@ -10,8 +10,8 @@ Template Name: Home Page - Banner
 <div id="parallax1">
 	<div class="container">
     <div class="parallax-content">
-    <h1 class="parallax-h1">The WordPress Bootstrap Theme</h1>
-    <h3 class="parallax-h3">“Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes”</h3>
+    <h1 class="parallax-h1">S T A G E</h1>
+    <h3 class="parallax-h3">“Stage makes front-end web development on WordPress faster and easier. It's made for devices of all shapes and projects of all sizes”</h3>
     <a class="btn btn-success btn-lg" href="https://github.com/chiraggude/wordpress-bootstrap" role="button"><i class="fa fa-github fa-lg"></i> Download from GitHub</a>
 	</div> 	      
 	</div> 
