@@ -1,4 +1,4 @@
-# WordPress Bootstrap Theme
+# Stage (Under Construction)
 
 Sleek and modern starter theme built with Bootstrap 3.1.1. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
 
