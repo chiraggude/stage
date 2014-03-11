@@ -4,12 +4,12 @@ function wpbs_styles_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() .'/assets/font-awesome/css/font-awesome.min.css' );
-    wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.all.css');
+        wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.all.css');
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), '3.1.0' );
 	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.5.4', false);
-    wp_enqueue_script( 'wpbs', get_template_directory_uri() . '/assets/js/wpbs.js', array( 'jquery' ), '1.0.0', true );
+        wp_enqueue_script( 'wpbs', get_template_directory_uri() . '/assets/js/wpbs.js', array( 'jquery' ), '1.0.0', true );
 	wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.all.js', array('jquery'), '4.1.9', false ); 
-    
+    // Scripts enqueued below are loaded for all pages except the front_page(home page) 
     if (!is_front_page()){
     wp_enqueue_script( 'share', get_template_directory_uri() . '/assets/js/share.min.js', array(), '0.0.5', false );
     wp_enqueue_script( 'scroll-nav', get_template_directory_uri() . '/assets/js/jquery.scrollNav.js', array( 'jquery' ), '2.1.1', false );
