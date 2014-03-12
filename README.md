@@ -12,7 +12,21 @@ Built with WordPress 3.8.1 and Bootstrap 3.1.1
 COMING SOON
 
 ## Installation & Setup
-COMING SOON 
+
+First you need to [download the latest version](https://github.com/chiraggude/wordpress-bootstrap/archive/master.zip)
+
+Once you get there there are two ways to install STAGE.
+
+### Manually
+
+* Upload the zip file to /wp-content/themes/ and unzip it.
+* Activate the theme via the Admin > Appearance > Manage Themes 
+
+### Automatically
+
+* Go to Admin > Appearance > Install Themes tab > Upload 
+* Click on "Browse" and upload the .zip
+* Activate it via the Admin > Appearance > Manage Themes 
 
 ## Demo Content
 COMING SOON
