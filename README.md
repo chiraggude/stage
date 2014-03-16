@@ -9,7 +9,22 @@ Built with WordPress 3.8.1 and Bootstrap 3.1.1
 * Screenshots: COMING SOON
 
 ## Features
-COMING SOON
+* 12 Column Responsive Layout based on Bootstrap 3.1.1
+* 2 Homepage layouts - Scrolling Banner & Image Slider
+* Blog - List & Grid with pagination
+* Top Menu with Search, Login/Logout/Register, Gravatar 
+* Off-Canvas side-menu with MMenu.js 4.2.1
+* Footer - Menu and 4 widget areas
+* Styled Search Form and Search results
+* WP Page Templates: Archives, Default (with Sidebar on right), Left-Sidebar, Dual Sidebar and Full-Width
+* WP Pages: 404 page, Category, Tags, Author Bio, Archive
+* Smooth scroll-to-top link in the footer
+* Styled Comments form  and validation with jQuery Validation Plugin 1.11.1 
+* Long form article in-page navigation - ScrollNav.js 2.1.1 (combined with ScrollToFixed 1.0.4)
+* Srollbar with jQuery.NiceScroll v3.5.4
+* Font Icons (Glyphicons & FontAwesome 4.0.3)
+* [Social Share](https://github.com/carrot/share-button) button on Single posts 
+
 
 ## Installation & Setup
 
@@ -121,6 +136,7 @@ I needed a starter theme to serve as the code base for all my WordPress projects
 * WordPress 3.8.1
 * Bootstrap 3.1.1
 * Font Awesome 4.0.3
+* [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker) 
 
 
 ===================
