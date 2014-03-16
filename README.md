@@ -32,14 +32,14 @@ If your wordpress website has content, then jump to the "Get Started" section to
 
 ## Demo Content
 
-If you have installed STAGE on a fresh installation of WordPress, your homepage will look like this screenshot. 
+If you have installed STAGE on a fresh installation of WordPress, your homepage will look like this [screenshot](https://db.tt/s7QJiMmH). 
 
 **Step 1 -** 
-To replicate the look and feel of the demo, download this sample-content-xml to your desktop.
+To replicate the look and feel of the demo, download this [sample-content-xml](https://db.tt/TVQFzjJC) to your desktop. Right click and "save as" to your Desktop
 
 **Step 2 -**
 Next, go to the WordPress admin backend > Tools > Import > WordPress > Install & activate the Importer plugin if required 
-* Click "Choose File" > Upload the sample-content-xml 
+* Click "Choose File" > Upload the [sample-content-xml](https://db.tt/TVQFzjJC)
 * Click "Upload file & import" > Assign authors as required 
 * Select the checkbox for "Download and import file attachments" 
 * Submit
@@ -47,7 +47,7 @@ Next, go to the WordPress admin backend > Tools > Import > WordPress > Install &
 
 After few seconds you should see the "All Done. Have fun!" message
 
-Now if you go to your homepage, your website should look like this screenshot
+Now if you go to your homepage, your website should look like this [screenshot](https://db.tt/toEoAhb2)
 
 ## Get Started
 
@@ -59,6 +59,8 @@ In WordPress Admin backend, go to Settings >  Reading
 * For "Blog pages show at most", change "10" to "5"
 * Save changes
 
+Now your website should look like this [screenshot](https://db.tt/zJnSHZFQ)
+
 #### Menus
 In WordPress Admin backend, go to Appearance >  Menus 
 * Click on the "Manage Locations" tab on the top
@@ -67,16 +69,20 @@ In WordPress Admin backend, go to Appearance >  Menus
 * Select "Menu 3" as Footer Menu
 * Save Menu
 
+Now your website should look like this [screenshot](https://db.tt/3BKijoSh)
+
 #### Widgets
 In WordPress Admin backend, go to Appearance >  Widgets
 * Drag one or more widgets into the "Main Sidebar" and "Left Sidebar"
 * Drag one or more widget in to the following Widget Areas: Footer Column 1, 2, 3 and 4
 
+Now your website should look like this [screenshot](https://db.tt/HDtLZ6Yd)
 
 ---
 
-
 **NOTE**: I have peronally noticed a bug in WP 3.8.1 where widgets don't expand in the admin area. This bug was present in Chrome, Firefox  & IE. A quick fix was to click on the "screen options" at the top of the Widgets page in the admin area and select "Enable accessibility mode"
+
+---
 
 ### Theme File Structure
 COMING SOON
