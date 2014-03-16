@@ -57,7 +57,7 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 
 
 /* Parallax Background on home-page */
-#parallax1{ background:  linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(assets/images/banner-background.jpg) 40% 0 no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; }
+.parallax-background{ background:  url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; }
 .parallax-content{ text-align: center; margin-top: -130px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { .parallax-content{margin-top: -80px; }}
