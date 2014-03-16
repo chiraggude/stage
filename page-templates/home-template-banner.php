@@ -7,7 +7,7 @@ Template Name: Home Page - Banner
 <?php get_header(); ?>
 </div>
 
-<div id="parallax1">
+<div class="parallax-background">
 	<div class="container">
     <div class="parallax-content">
     <h1 class="parallax-h1"><  S T A G E  ></h1>
@@ -15,7 +15,7 @@ Template Name: Home Page - Banner
     <a class="btn btn-success btn-lg" href="https://github.com/chiraggude/wordpress-bootstrap" role="button"><i class="fa fa-github fa-lg"></i> Download from GitHub</a>
 	</div> 	      
 	</div> 
-  </div> <!-- Parallax End -->
+  </div> 
 
 <div class="container">
 
