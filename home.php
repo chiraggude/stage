@@ -3,7 +3,7 @@
 <div class="row">
   <div class="col-md-8">
 
-	<h1 class="wpbs-very-muted"><i class="fa fa-bars"></i> <?php wp_title("",true); ?> </h1>
+	<h1 class="wpbs-very-muted"><i class="fa fa-list-alt"></i> <?php wp_title("",true); ?> </h1>
 
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
