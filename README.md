@@ -122,7 +122,7 @@ I needed a starter theme to serve as the code base for all my WordPress projects
 
 ## Road Map
 
-1: Build theme options panel with Redux Framework
+1: Build theme options panel with Redux Framework (In Progress)
 
 2: Add native WordPress support for:
 * Featured Content
