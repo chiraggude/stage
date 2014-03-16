@@ -2,7 +2,6 @@
 
 STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
 
-Built with WordPress 3.8.1 and Bootstrap 3.1.1
 
 ## Demo & Screenshots
 * Live demo website: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
@@ -11,7 +10,7 @@ Built with WordPress 3.8.1 and Bootstrap 3.1.1
 ## Features
 * 12 Column Responsive Layout based on Bootstrap 3.1.1
 * 2 Homepage layouts - Scrolling Banner & Image Slider
-* Blog - List & Grid with pagination
+* 2 Blog layouts - List & Grid with pagination
 * Top Menu with Search, Login/Logout/Register, Gravatar 
 * Off-Canvas side-menu with MMenu.js 4.2.1
 * Footer - Menu and 4 widget areas
