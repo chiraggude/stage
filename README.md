@@ -98,11 +98,11 @@ Now your website should look like this [screenshot](https://db.tt/HDtLZ6Yd)
 
 ---
 
-### Theme File Structure
-COMING SOON
 
 ### Tips & Tricks
-COMING SOON
+* **IE8 Compatibility** - The bootstrap.min.css file should not be hosted on a CDN, instead it should be hosted on your server for respond.js to work. 
+* **Theme File Structure** - COMING SOON
+
 
 ## FAQ's 
 
