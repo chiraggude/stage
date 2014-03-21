@@ -68,4 +68,22 @@ require get_template_directory() . '/includes/excerpts.php';
 
 
 		
-	
+//  Register TGM_Plugin_Activation class to install Redux Framework.
+require_once dirname( __FILE__ ) . '/includes/tgm-plugin-activation.php';
+
+function redux_register_required_plugins() {
+	$plugin = array(
+		'name' 			=> 'Redux Framework',
+		'slug' 			=> 'redux-framework',
+		'required' 		=> true,
+	);
+	$config = array(
+		'has_notices'     	=> true,                       	
+		'is_automatic'    	=> true,					   
+		'nag_type'			=> 'error' 
+	);
+	tgmpa( array($plugin), $config );
+}
+add_action( 'tgmpa_register', 'redux_register_required_plugins' );
+
+
