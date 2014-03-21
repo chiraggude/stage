@@ -44,7 +44,13 @@ Once you get there there are two ways to install STAGE.
 * Click on "Browse" and upload the .zip
 * Activate it via the Admin > Appearance > Manage Themes
 
-After activating the theme, you will see a notice that will prompt you to install the Redux Framework (required for the theme options panel). Click on "Begin Installing plugin" to download and install the plugin from www.wordpress.org. After install the plugin, click on "Return to the Dashboard". Now you will see a new panel "STAGE Option" like this [screenshot](https://db.tt/fuAMDrzo). You can now start customizing your theme!
+#### Install Redux Framework plugin
+
+* After activating the theme, you will see a notice that will prompt you to install the Redux Framework (required for the theme options panel). 
+* Click on "Begin Installing plugin" to download and install the plugin from www.wordpress.org. 
+* After install the plugin, click on "Return to the Dashboard". Now you will see a new panel "STAGE Option" like this [screenshot](https://db.tt/fuAMDrzo). 
+
+You can now start customizing your theme!
 
 If your wordpress website has content, then jump to the "Get Started" section to setup your homepage, blog page, menus etc.
 
