@@ -12,6 +12,13 @@
     <title><?php wp_title('|',1,'right'); ?> <?php bloginfo('name'); ?></title>
 
     <?php wp_enqueue_script("jquery"); ?>
+	
+	<?php if (class_exists('ReduxFramework')) {  ?>
+	 <style type="text/css"><?php echo $redux_demo['css-code']; ?></style>
+	 <link rel="stylesheet" href="<?php echo  get_template_directory_uri() .'/bootstrap/css/'; echo $redux_demo['stylesheet'].'.min.css';?>" type="text/css"/>
+    <?php } else {   ?>
+	<link rel="stylesheet" href="<?php echo  get_template_directory_uri() .'/bootstrap/css/bootstrap.min.css';?>" type="text/css"/>
+    <?php }  ?>
       
     <?php wp_head(); ?>
     
