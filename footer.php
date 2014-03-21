@@ -1,4 +1,4 @@
-
+<?php global $redux_demo; ?>	
 	 </div> <!-- /container -->
 	 </br></br>
 	 <footer>
