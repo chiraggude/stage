@@ -33,7 +33,11 @@
   <div id="page">  <!--mmenu wrapper -->
   
     <!-- Primary Menu-->
-    <nav class="navbar navbar-default navbar-fixed-top mm-fixed-top" role="navigation">
+    <?php if (class_exists('ReduxFramework')) {  ?>
+    <nav class="navbar <?php echo  $redux_demo['stage-navbar-style'];?> navbar-fixed-top mm-fixed-top" role="navigation">
+	<?php } else {   ?>
+	<nav class="navbar navbar-default navbar-fixed-top mm-fixed-top" role="navigation">
+	<?php }  ?>
       <div class="container">
         <div class="navbar-header">
            
