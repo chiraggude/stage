@@ -11,17 +11,19 @@ STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designe
 * 12 Column Responsive Layout based on Bootstrap 3.1.1
 * 2 Homepage layouts - Scrolling Banner & Image Slider
 * 2 Blog layouts - List & Grid with pagination
+* 16 theme styles from Bootswatch
+* Theme Options Panel with 12 settings
 * Top Menu with Search, Login/Logout/Register, Gravatar 
-* Off-Canvas side-menu with MMenu.js 4.2.1
+* Off-Canvas side-menu 
 * Footer - Menu and 4 widget areas
 * Styled Search Form and Search results
 * WP Page Templates: Archives, Default (with Sidebar on right), Left-Sidebar, Dual Sidebar and Full-Width
 * WP Pages: 404 page, Category, Tags, Author Bio, Archive
 * Smooth scroll-to-top link in the footer
-* Styled Comments form  and validation with jQuery Validation Plugin 1.11.1 
+* Styled Comments form with in-built validation 
 * Long form article in-page navigation - ScrollNav.js 2.1.1 (combined with ScrollToFixed 1.0.4)
-* Srollbar with jQuery.NiceScroll v3.5.4
-* Font Icons (Glyphicons & FontAwesome 4.0.3)
+* Custom styled Srollbar 
+* Font Icons (Glyphicons & FontAwesome)
 * [Social Share](https://github.com/carrot/share-button) button on Single posts 
 
 
@@ -122,9 +124,7 @@ I needed a starter theme to serve as the code base for all my WordPress projects
 
 ## Road Map
 
-1: Build theme options panel with Redux Framework (In Progress)
-
-2: Add native WordPress support for:
+Add native WordPress support for:
 * Featured Content
 * Post-Formats
 * Custom Backgrounds
@@ -134,8 +134,13 @@ I needed a starter theme to serve as the code base for all my WordPress projects
 ## Built With
 * WordPress 3.8.1
 * Bootstrap 3.1.1
+* MMenu 4.2.1
+* Redux Framework 3.1.9
 * Font Awesome 4.0.3
+* jQuery Validation Plugin 1.11.1 
 * [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker) 
+* TGM  Plugin Activation class 2.4.0 
+* NiceScroll v3.5.4
 
 
 ===================
