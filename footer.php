@@ -33,7 +33,7 @@
 	 
      <div class="footer-credits">
 	   <div class="container">
-            <h6 style="display:inline;">&copy; <?php echo date("Y"); ?>  Turizon, Inc. </h6>
+            <h6 style="display:inline;">&copy; <?php echo date("Y"); ?>  <?php echo  $redux_demo['footer-copyright-text'];?> </h6>
             <p class="pull-right"><a href="#top"><i class="fa fa-arrow-circle-up"></i> Back to top</a></p>
         </div>
 	 </div>
