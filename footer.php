@@ -37,9 +37,9 @@
             <p class="pull-right"><a href="#top"><i class="fa fa-arrow-circle-up"></i> Back to top</a></p>
         </div>
 	 </div>
-
 	 </footer>
     <?php wp_footer(); ?>
+	 <script type="text/javascript"><?php echo $redux_demo['tracking-code'];?></script>
     </div> <!-- /page -->
   </body>
 </html>
