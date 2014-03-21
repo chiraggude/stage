@@ -1,7 +1,7 @@
 <?php
 // Enqueue JS scripts and CSS styles for the theme 
 function wpbs_styles_scripts() {
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
+	//wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() .'/assets/font-awesome/css/font-awesome.min.css' );
         wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.all.css');
