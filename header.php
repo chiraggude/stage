@@ -1,3 +1,4 @@
+<?php global $redux_demo; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
