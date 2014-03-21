@@ -86,4 +86,5 @@ function redux_register_required_plugins() {
 }
 add_action( 'tgmpa_register', 'redux_register_required_plugins' );
 
-
+// Redux Framework config for STAGE
+require_once(dirname(__FILE__).'/includes/redux-config.php');
