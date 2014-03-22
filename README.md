@@ -4,7 +4,7 @@ STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designe
 
 
 ## Demo & Screenshots
-* Live demo website: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
+* Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 * Theme Style Screenshots: [Bootstrap](https://db.tt/m6rnd3gZ), [Amelia](https://db.tt/0xPShSEK), [Cerulean](https://db.tt/8KkQuWKg), [Cosmo](https://db.tt/sQURoIqS), [Cyborg](https://db.tt/Fm44yXWm), [Darkly](https://db.tt/eDE5hyj4), [Flatly](https://db.tt/SMgfjWd0), [Lumen](https://db.tt/JV6BWEgl), [Simplex](https://db.tt/Rww3tVUe), [Slate](https://db.tt/B3z4CvgM), [Superhero](https://db.tt/qHEWYh5M), [Yeti](https://db.tt/71YJh7YV)
 
 
