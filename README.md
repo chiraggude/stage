@@ -150,6 +150,8 @@ Add native WordPress support for:
 * [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker) 
 * TGM  Plugin Activation class 2.4.0 
 * NiceScroll v3.5.4
+* ScrollNav.js 2.1.1
+* ScrollToFixed 1.0.4
 
 
 ===================
