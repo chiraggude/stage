@@ -259,15 +259,9 @@ if (!class_exists('Redux_Framework_sample_config')) {
 								'cyborg' => 'cyborg',
 								'darkly' => 'darkly',
 								'flatty' => 'Flatty',
-								'journal' => 'journal',
-								'lumen' => 'lumen',
-								'readable' => 'readable',
-								'shamrock' => 'shamrock',
 								'simplex' => 'simplex',
 								'slate' => 'slate',
-								'spacelab' => 'spacelab',
 								'superhero' => 'superhero',
-								'united' => 'united',
 								'yeti' => 'yeti'
 								), 
                         'default' => 'bootstrap'
