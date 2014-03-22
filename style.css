@@ -61,7 +61,7 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 .parallax-content{ text-align: center; margin-top: -130px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { .parallax-content{margin-top: -80px; }}
-@media (min-width: 992px) { .parallax-h1{ font-size: 55px;} .parallax-h3{ font-size: 35px;}}
+@media (min-width: 992px) { .parallax-h1{ font-size: 55px; color:#ededed} .parallax-h3{ font-size: 35px; color:#ededed}}
 
 
 /* Footer */
