@@ -30,9 +30,9 @@ STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designe
 
 ## Installation & Setup
 
-First you need to [download the latest version](https://github.com/chiraggude/wordpress-bootstrap/archive/master.zip)
+First you need to [download the latest version](https://github.com/chiraggude/wordpress-bootstrap/archive/master.zip), install the theme and then install the Redux Framework plugin.
 
-Once you get there there are two ways to install STAGE.
+There there are two ways to install STAGE:
 
 #### Manually
 
