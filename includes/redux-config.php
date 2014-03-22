@@ -258,7 +258,7 @@ if (!class_exists('Redux_Framework_sample_config')) {
 								'cosmo' => 'Cosmo',
 								'cyborg' => 'Cyborg',
 								'darkly' => 'Darkly',
-								'flatty' => 'Flatty',
+								'flatly' => 'Flatly',
 								'lumen' => 'Lumen',
 								'simplex' => 'Simplex',
 								'slate' => 'Slate',
