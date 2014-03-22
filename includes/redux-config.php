@@ -253,16 +253,16 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'desc' => __('All theme styles apart from the orginal Bootstrap theme are from <a href="https://github.com/thomaspark/bootswatch/">Bootswatch</a>.', 'redux-framework-demo'),
                         'options' => array(
 								'bootstrap' => 'Bootstrap (Original)', 
-								'amelia' => 'amelia',
-								'cerulean' => 'cerulean',
-								'cosmo' => 'cosmo',
-								'cyborg' => 'cyborg',
-								'darkly' => 'darkly',
+								'amelia' => 'Amelia',
+								'cerulean' => 'Cerulean',
+								'cosmo' => 'Cosmo',
+								'cyborg' => 'Cyborg',
+								'darkly' => 'Darkly',
 								'flatty' => 'Flatty',
-								'simplex' => 'simplex',
-								'slate' => 'slate',
-								'superhero' => 'superhero',
-								'yeti' => 'yeti'
+								'simplex' => 'Simplex',
+								'slate' => 'Slate',
+								'superhero' => 'Superhero',
+								'yeti' => 'Yeti'
 								), 
                         'default' => 'bootstrap'
                     ),
