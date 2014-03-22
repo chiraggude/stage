@@ -11,7 +11,7 @@ STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designe
 * 12 Column Responsive Layout based on Bootstrap 3.1.1
 * 2 Homepage layouts - Scrolling Banner & Image Slider
 * 2 Blog layouts - List & Grid with pagination
-* 16 theme styles from Bootswatch
+* 10 theme styles from Bootswatch
 * Theme Options Panel with 12 settings
 * Top Menu with Search, Login/Logout/Register, Gravatar 
 * Off-Canvas side-menu 
