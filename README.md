@@ -152,6 +152,7 @@ Add native WordPress support for:
 * NiceScroll v3.5.4
 * ScrollNav.js 2.1.1
 * ScrollToFixed 1.0.4
+* Theme Styles: [Bootswatch](https://github.com/thomaspark/bootswatch/) and [Bootflat](https://github.com/bootflat/bootflat.github.io/)
 
 
 ===================
