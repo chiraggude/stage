@@ -250,10 +250,9 @@ if (!class_exists('Redux_Framework_sample_config')) {
                         'type' => 'radio',
                         'title' => __('Theme Stylesheet', 'redux-framework-demo'),
                         'subtitle' => __('Select your color and design scheme.', 'redux-framework-demo'),
-                        'desc' => __('Credits for theme styles: <a href="https://github.com/twbs/bootstrap/">Bootstrap</a>, <a href="https://github.com/thomaspark/bootswatch/">Bootswatch</a> and <a href="https://github.com/bootflat/bootflat.github.io/">Bootflat</a>.', 'redux-framework-demo'),
+                        'desc' => __('Credits for theme styles: <a href="https://github.com/twbs/bootstrap/">Bootstrap</a> and <a href="https://github.com/thomaspark/bootswatch/">Bootswatch</a>'),
                         'options' => array(
-								'bootstrap' => 'Bootstrap (Original)', 
-								'bootflat' => 'Bootflat',
+								'bootstrap' => 'Bootstrap (Original)',
 								'amelia' => 'Amelia',
 								'cerulean' => 'Cerulean',
 								'cosmo' => 'Cosmo',

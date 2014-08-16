@@ -3,11 +3,12 @@
 /////////////////////////////////////////////////
 if(jQuery('nav#menu-left').length > 0) { //checks if nav element #menu exists
 	jQuery('nav#menu-left').mmenu({
+	// options
     classes: "mm-dark",
     slidingSubmenus: false
     }, {
-   // configuration object
-   selectedClass: "current-menu-item"
+   // configuration
+   selected: "current-menu-item"
    }
   );
 }
@@ -39,8 +40,13 @@ jQuery(document).ready(function(){
                 insertLocation: 'appendTo'
             });
         }
+        jQuery('.scroll-nav__list').addClass('list-group');
+        jQuery('.scroll-nav__item').addClass('list-group-item');
+        jQuery('.scroll-nav__link').addClass('wpbs-muted');
     }
 });
+
+
 
 /////////////////////////////////////////////////
 // Scroll-to-Fixed.js
@@ -72,10 +78,13 @@ jQuery(document).ready(function() {
 /////////////////////////////////////////////////
 jQuery(document).ready(function(){ 
     if(jQuery('#sharebutton').length > 0) { //checks if div element #sharebutton exists
-            jQuery('#sharebutton').share({
-            color: '#767676',
-            flyout: 'top left'
-            });
+
+        new Share("#sharebutton", {
+            ui: {
+                flyout: 'top left'
+            }
+        });
+
     }
 });
 

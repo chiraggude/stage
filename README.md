@@ -1,30 +1,26 @@
 # STAGE - WordPress Theme Framework 
 
-STAGE is a sleek and modern starter theme built with Bootstrap 3.1.1 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
+STAGE is a sleek and modern starter theme built with Bootstrap 3.2.0 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
 
-
-## Demo & Screenshots
-* Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
-* Theme Style Screenshots: [Bootstrap](https://db.tt/m6rnd3gZ), [Amelia](https://db.tt/0xPShSEK), [Cerulean](https://db.tt/8KkQuWKg), [Cosmo](https://db.tt/sQURoIqS), [Cyborg](https://db.tt/Fm44yXWm), [Darkly](https://db.tt/eDE5hyj4), [Flatly](https://db.tt/SMgfjWd0), [Lumen](https://db.tt/JV6BWEgl), [Simplex](https://db.tt/Rww3tVUe), [Slate](https://db.tt/B3z4CvgM), [Superhero](https://db.tt/qHEWYh5M), [Yeti](https://db.tt/71YJh7YV)
-
+#### Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 
 ## Features
-* 12 Column Responsive Layout based on Bootstrap 3.1.1
+* 12 Column Responsive Layout based on Bootstrap 3.2.0
 * 2 Homepage layouts - Scrolling Banner & Image Slider
 * 2 Blog layouts - List & Grid with pagination
 * 11 theme styles from Bootswatch
 * Theme Options Panel with 12 settings
 * Top Menu with Search, Login/Logout/Register, Gravatar 
-* Off-Canvas side-menu 
+* Off-Canvas side-menu with MMenu
 * Footer - Menu and 4 widget areas
 * Styled Search Form and Search results
 * WP Page Templates: Archives, Default (with Sidebar on right), Left-Sidebar, Dual Sidebar and Full-Width
 * WP Pages: 404 page, Category, Tags, Author Bio, Archive
 * Smooth scroll-to-top link in the footer
 * Styled Comments form with in-built validation 
-* Long form article in-page navigation - ScrollNav.js 2.1.1 (combined with ScrollToFixed 1.0.4)
+* Long form article navigation with ScrollNav.js and ScrollToFixed.js
 * Custom styled Srollbar 
-* Font Icons (Glyphicons & FontAwesome)
+* Font Icons (Glyphicons & Font Awesome)
 * [Social Share](https://github.com/carrot/share-button) button on Single posts 
 
 
@@ -105,7 +101,7 @@ Now your website should look like this [screenshot](https://db.tt/HDtLZ6Yd)
 
 ---
 
-**NOTE**: I have peronally noticed a bug in WP 3.8.1 where widgets don't expand in the admin area. This bug was present in Chrome, Firefox  & IE. A quick fix was to click on the "screen options" at the top of the Widgets page in the admin area and select "Enable accessibility mode"
+**NOTE**: I have noticed a bug in WP 3.8.1 where widgets don't expand in the admin area. This bug was present in Chrome, Firefox  & IE. A quick fix was to click on the "screen options" at the top of the Widgets page in the admin area and select "Enable accessibility mode"
 
 ---
 
@@ -141,18 +137,18 @@ Add native WordPress support for:
 * Internationalization
 
 ## Built With
-* WordPress 3.8.1
-* Bootstrap 3.1.1
-* MMenu 4.2.1
-* Redux Framework 3.1.9
-* Font Awesome 4.0.3
-* jQuery Validation Plugin 1.11.1 
-* [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker) 
+* WordPress 3.9.2
+* Bootstrap 3.2.0
+* MMenu 4.3.6
+* Redux Framework 3.3.6
+* Font Awesome 4.1.0
+* jQuery Validation Plugin 1.13.0
+* [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker)
 * TGM  Plugin Activation class 2.4.0 
 * NiceScroll v3.5.4
-* ScrollNav.js 2.1.1
-* ScrollToFixed 1.0.4
-* Theme Styles: [Bootswatch](https://github.com/thomaspark/bootswatch/) and [Bootflat](https://github.com/bootflat/bootflat.github.io/)
+* ScrollNav 2.2.0
+* ScrollToFixed 1.0.6
+* [Share 0.4.1](https://github.com/carrot/share-button)
 
 
 ===================

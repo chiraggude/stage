@@ -1,49 +1,48 @@
 /*
 Theme Name: STAGE 
 Theme URI: http://turizon.in
-Description:  Sleek and modern starter theme built with Bootstrap 3.1.1. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
+Description:  Sleek and modern starter theme built with Bootstrap 3.2.0. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
 Author: Chirag Gude
 Author URI: http://turizon.in
-Version: 1.5 
+Version: 1.7
 Tags: responsive-layout,bootstrap-3, fluid-layout, clean, mobile
 
 License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 License URI: http://creativecommons.org/licenses/by-sa/3.0/
-
 */
 
 body{padding-top: 50px;}
-
-.wpbs-muted {text-transform:uppercase; color: #767676; font-weight:bold; text-decoration: none;}
-
-.wpbs-very-muted {text-transform:uppercase; color: #ababab; font-weight:bold; display:inline-block;}
-#category a:link, #category a:visited {color: #ababab}
-
-
-/* The identifieer "submit" is used in comments.php */
-#submit { color: #FFF; background-color: #428BCA; border-color: #357EBD; }
-
-/* Hide orginal WP submit button (see custom submit button in comments-template-tags.php */
-.form-submit {     display: none; }
-
-.tz-comment-list {padding-left: 0px ; } 
-.tz-comment-meta {padding-left: 10px ; } 
-
-.search-highlight { background:#f9e491; }
-
-.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0px;}
-
-.mobile-search {float: right; padding: 15px 20px 0px 0px; color: #a4a4a4;}
-
-/* ScrollNav.js */
-.wpbs-scrollnav-heading {text-transform:uppercase; color: #979797; font-weight:bold; display:inline-block; padding-left:17px; padding-bottom:10px;}
-.cpg-nav-pane { left: auto !important;  width:175px; }
-.cpg-nav-pane.scroll-to-fixed-fixed { left: auto !important;  width:175px;  }
-
-
 /* Prevents modal to shift background when opened */
 body.modal-open { margin-left: auto; margin-right: auto; }
 
+.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0px;}
+
+/* Typography */
+.wpbs-muted {text-transform:uppercase; color: #767676; font-weight:bold; text-decoration: none;}
+.wpbs-very-muted {text-transform:uppercase; color: #ababab; font-weight:bold; display:inline-block;}
+#category a:link, #category a:visited {color: #ababab}
+
+/* The identifier "submit" is used in comments.php */
+#submit { color: #FFF; background-color: #428BCA; border-color: #357EBD; }
+
+/* Hide orginal WP submit button (see custom submit button in comments-template-tags.php */
+.form-submit { display: none; }
+
+/* Comments */
+.tz-comment-list {padding-left: 0px ; } 
+.tz-comment-meta {padding-left: 10px ; } 
+
+/* Search */
+.search-highlight { background:#f9e491; }
+.mobile-search {float: right; padding: 15px 20px 0px 0px; color: #a4a4a4;}
+
+/* ScrollNav.js */
+.scroll-nav__heading { text-transform:uppercase; color: #979797; font-weight:bold; display:inline-block; padding-left:17px; padding-bottom:10px;}
+.cpg-nav-pane { left: auto !important;  width:175px; }
+.cpg-nav-pane.scroll-to-fixed-fixed { left: auto !important;  width:175px;  }
+
+/* Share.js button */
+#sharebutton.sharer-0 label {background: #E6E6E6;}
 
 /* For mmenu.js */
 .navbar {width: 100%;}
@@ -51,10 +50,8 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 .left-navbar-toggle:active { color: orange; }
 @media (min-width: 768px) { .left-navbar-toggle { padding: 10px 10px 0 0px; } }
 
-
 /* Pagination on pages with custom queries - eg. post-grid */
 .page-numbers.current {background-color: #428BCA; color:#fff}
-
 
 /* Parallax Background on home-page */
 .parallax-background{ background:  url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; }
@@ -63,14 +60,10 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 @media (min-width: 768px) { .parallax-content{margin-top: -80px; }}
 @media (min-width: 992px) { .parallax-h1{ font-size: 55px; color:#ededed} .parallax-h3{ font-size: 35px; color:#ededed}}
 
-
 /* Footer */
 .footer-menu {background-color:#34495e; padding-top: 1em; padding-bottom:1em; font-weight: bold; text-transform: uppercase; }
 .footer-widgets-panel {background-color:#ecf0f1; padding-top: 2em; padding-bottom:4em; }
 .footer-credits {background-color:#fafafa; padding-top: 1em; padding-bottom:1em; }
-
-
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -116,6 +109,3 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 @media (min-width: 992px) {
   .featurette-heading {  margin-top: 120px; }
 }
-
-
-

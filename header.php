@@ -5,30 +5,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/assets/images/favicon.png' ?>">
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri() . '/assets/images/apple-touch-icon.png' ?>">
-
     <title><?php wp_title('|',1,'right'); ?> <?php bloginfo('name'); ?></title>
 
     <?php wp_enqueue_script("jquery"); ?>
-	
-	<?php if (class_exists('ReduxFramework')) {  ?>
-	 <style type="text/css"><?php echo $redux_demo['css-code']; ?></style>
-	 <link rel="stylesheet" href="<?php echo  get_template_directory_uri() .'/bootstrap/css/'; echo $redux_demo['stylesheet'].'.min.css';?>" type="text/css"/>
+
+    <?php if (class_exists('ReduxFramework')) {  ?>
+	    <link rel="stylesheet" href="<?php echo  get_template_directory_uri() .'/bootstrap/css/'; echo $redux_demo['stylesheet'].'.min.css';?>" type="text/css"/>
+        <style type="text/css"> <?php echo $redux_demo['css-code']; ?> </style>
     <?php } else {   ?>
-	<link rel="stylesheet" href="<?php echo  get_template_directory_uri() .'/bootstrap/css/bootstrap.min.css';?>" type="text/css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <?php }  ?>
       
     <?php wp_head(); ?>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
   </head>
+
   <body <?php body_class($class); ?>>
   <div id="page">  <!--mmenu wrapper -->
   
@@ -92,9 +87,9 @@
               </ul> ';
         } ?>
             
-        </div><!--/.nav-collapse -->
-      </div><!--/.container -->
-    </nav><!--/.navbar -->
+        </div>
+      </div>
+    </nav>
       
 
     <!--Search Modal -->
@@ -110,9 +105,9 @@
           <?php get_search_form(); ?>
           <br/><br/>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal --> 
+        </div>
+      </div>
+    </div>
       
     <!-- Side Menu--> 
     <?php if ( has_nav_menu( 'side-menu' ) ) { ?>
