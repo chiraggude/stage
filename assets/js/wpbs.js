@@ -168,6 +168,3 @@ validator = jQuery("#commentform").validate({
         }
     });
 }
-
-
-

@@ -7,34 +7,30 @@ Author URI: http://turizon.in
 Version: 1.7
 Tags: responsive-layout,bootstrap-3, fluid-layout, clean, mobile
 
-License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-License URI: http://creativecommons.org/licenses/by-sa/3.0/
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-body{padding-top: 50px;}
-/* Prevents modal to shift background when opened */
-body.modal-open { margin-left: auto; margin-right: auto; }
-
-.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0px;}
+body {padding-top: 70px;}
 
 /* Typography */
 .wpbs-muted {text-transform:uppercase; color: #767676; font-weight:bold; text-decoration: none;}
 .wpbs-very-muted {text-transform:uppercase; color: #ababab; font-weight:bold; display:inline-block;}
 #category a:link, #category a:visited {color: #ababab}
 
-/* The identifier "submit" is used in comments.php */
-#submit { color: #FFF; background-color: #428BCA; border-color: #357EBD; }
-
-/* Hide orginal WP submit button (see custom submit button in comments-template-tags.php */
-.form-submit { display: none; }
-
 /* Comments */
 .tz-comment-list {padding-left: 0px ; } 
-.tz-comment-meta {padding-left: 10px ; } 
+.tz-comment-meta {padding-left: 10px ; }
+/* The identifier "submit" is used in comments.php */
+#submit { color: #FFF; background-color: #428BCA; border-color: #357EBD; }
+/* Hide orginal WP submit button (see custom submit button in comments-template-tags.php */
+.form-submit { display: none; }
 
 /* Search */
 .search-highlight { background:#f9e491; }
 .mobile-search {float: right; padding: 15px 20px 0px 0px; color: #a4a4a4;}
+/* Position Search modal to center of the page */
+#search-modal{height: 400px; top: calc(50% - 200px);}
 
 /* ScrollNav.js */
 .scroll-nav__heading { text-transform:uppercase; color: #979797; font-weight:bold; display:inline-block; padding-left:17px; padding-bottom:10px;}
@@ -44,7 +40,10 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 /* Share.js button */
 #sharebutton.sharer-0 label {background: #E6E6E6;}
 
-/* For mmenu.js */
+/* Navbar */
+.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0px;}
+
+/* For MMenu.js */
 .navbar {width: 100%;}
 .left-navbar-toggle { color: #777; position: relative;  float: left;  padding: 10px 5px 0 15px; }
 .left-navbar-toggle:active { color: orange; }
@@ -54,7 +53,7 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 .page-numbers.current {background-color: #428BCA; color:#fff}
 
 /* Parallax Background on home-page */
-.parallax-background{ background:  url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; }
+.parallax-background{ background:  url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; margin-top:-20px;}
 .parallax-content{ text-align: center; margin-top: -130px;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { .parallax-content{margin-top: -80px; }}
@@ -68,7 +67,7 @@ body.modal-open { margin-left: auto; margin-right: auto; }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-.carousel { height: 400px;   margin-bottom: 20px; }
+.carousel { height: 400px;   margin-bottom: 20px; margin-top: -20px;}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {   z-index: 10; }
 /* Declare heights because of positioning of img element */
