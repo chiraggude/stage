@@ -14,10 +14,10 @@ function wpbs_post_nav() {
                     previous_post_link( '<strong>%link</strong>', __( '<div class="well well-sm"><p class="wpbs-muted">Previous Post</p>%title</div>', 'twentyfourteen' ) );
                     next_post_link( '<strong>%link</strong>', __( '<div class="well well-sm"><p class="wpbs-muted">Next Post</p>%title</div>', 'twentyfourteen' ) );
                 endif;	
-} ?>
+}
 
 
-<?php
+
 // Display multi-page pagination (home.php, archive.php, category.php, author.php, search.php, tag.php)
 function wpbs_pagination($pages = '', $range = 2) {
     
@@ -52,10 +52,10 @@ function wpbs_pagination($pages = '', $range = 2) {
             echo "<li><a href='".get_pagenum_link($pages)."'>&raquo;</a></li>";
             echo "</ul></div>\n";
     }
-} ?>
+}
 
 
-<?php
+
 // Display multi-page pagination on Post Grids (page-template-post-grid.php)
 function wpbs_grid_pagination( $query=null ) {
  
@@ -78,4 +78,4 @@ function wpbs_grid_pagination( $query=null ) {
             }
         echo "</ul>";
         endif;
-} ?>
+}

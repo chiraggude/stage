@@ -65,23 +65,13 @@ function wpbs_comments( $comment, $args, $depth ) {
                 </article><!-- .comment-body -->
         </li>
 </ul>
-        <?php
-        endif;
+ <?php endif;
 }
 endif; // ends check for wpbs_comments()
 
-?>
-           
 
+add_action('comment_form', 'wpbs_comment_button' );
 
-
-
-            
-<?php            
-            add_action('comment_form', 'wpbs_comment_button' );
 function wpbs_comment_button() {
-    echo '<button class="btn btn-primary" type="submit"><i class="fa fa-check-circle"></i>' . __( ' Submit' ) . '</button>';
-}
-?>
-            
-            
+        echo '<button class="btn btn-primary" type="submit"><i class="fa fa-check-circle"></i>' . __( ' Submit' ) . '</button>';
+    }

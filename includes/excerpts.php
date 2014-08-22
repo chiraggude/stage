@@ -68,4 +68,3 @@ function content($limit) {
   $content = str_replace(']]>', ']]&gt;', $content);
   return $content;
 }
-

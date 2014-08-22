@@ -119,6 +119,4 @@
         )); ?>
 	</nav> 
      <?php } ?>
-             
-
 <div class="container">

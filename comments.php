@@ -116,11 +116,7 @@ if ( post_password_required() ) {
     )
   ),          
 );   ?>
-    
-    
-    
-    
 
-	<?php comment_form($comments_args); ?>
+<?php comment_form($comments_args); ?>
 
 </div><!-- #comments -->

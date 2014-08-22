@@ -68,9 +68,5 @@ Template Name: Home Page - Carousel
 </div>
 
 
-
-    
-    
-
 <div><!-- for <div> at start of footer.php  -->
  <?php get_footer(); ?>
