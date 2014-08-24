@@ -139,7 +139,7 @@ Add native WordPress support for:
 ## Built With
 * WordPress 3.9.2
 * Bootstrap 3.2.0
-* MMenu 4.3.6
+* MMenu 4.4.2
 * Redux Framework 3.3.6
 * Font Awesome 4.1.0
 * jQuery Validation Plugin 1.13.0

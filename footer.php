@@ -40,6 +40,6 @@
 	 </footer>
     <?php wp_footer(); ?>
 	 <script type="text/javascript"><?php echo $redux_demo['tracking-code'];?></script>
-    </div> <!-- /page -->
+    </div> <!-- /mmenu wrapper -->
   </body>
 </html>

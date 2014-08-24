@@ -11,7 +11,8 @@ License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-body {padding-top: 70px;}
+body { padding-top: 50px}
+#page-content { padding-top: 20px }
 
 /* Typography */
 .wpbs-muted {text-transform:uppercase; color: #767676; font-weight:bold; text-decoration: none;}
@@ -45,9 +46,9 @@ body {padding-top: 70px;}
 
 /* For MMenu.js */
 .navbar {width: 100%;}
-.left-navbar-toggle { color: #777; position: relative;  float: left;  padding: 10px 5px 0 15px; }
+.left-navbar-toggle { color: #777; position: relative;  float: left;  padding: 13px 15px 0px 15px}
 .left-navbar-toggle:active { color: orange; }
-@media (min-width: 768px) { .left-navbar-toggle { padding: 10px 10px 0 0px; } }
+@media (min-width: 768px) { .left-navbar-toggle { margin-left: -20px } }
 
 /* Pagination on pages with custom queries - eg. post-grid */
 .page-numbers.current {background-color: #428BCA; color:#fff}

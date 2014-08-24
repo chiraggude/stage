@@ -1,7 +1,7 @@
 <?php global $redux_demo; ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,15 +17,15 @@
     <?php } else {   ?>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <?php }  ?>
-      
+
     <?php wp_head(); ?>
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    
-  </head>
+</head>
 
   <body <?php body_class($class); ?>>
-  <div id="page">  <!--mmenu wrapper -->
+
+  <div id="mmenu-wrapper">  <!--mmenu wrapper -->
   
     <!-- Primary Menu-->
     <?php if (class_exists('ReduxFramework')) {  ?>
@@ -90,7 +90,6 @@
         </div>
       </div>
     </nav>
-      
 
     <!--Search Modal -->
     <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -119,4 +118,5 @@
         )); ?>
 	</nav> 
      <?php } ?>
-<div class="container">
+
+<div class="container" id="page-content">

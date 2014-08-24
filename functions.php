@@ -2,12 +2,12 @@
 // Enqueue JS scripts and CSS styles for the theme
 function wpbs_styles_scripts() {
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
-    wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.all.css');
+    wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.css');
     // Enqueue JS scripts globally
 	wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js', array( 'jquery' ), '3.2.0' );
 	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.5.4', false);
     wp_enqueue_script( 'wpbs', get_template_directory_uri() . '/assets/js/wpbs.js', array( 'jquery' ), '1.1.0', true );
-	wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.all.js', array('jquery'), '4.3.6', false );
+	wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.4.2', false );
     // Enqueue JS scipts for all pages except the front_page(home page)
     if (! is_front_page()) {
     wp_enqueue_script( 'share', get_template_directory_uri() . '/assets/js/share.min.js', array(), '0.4.1', true );
