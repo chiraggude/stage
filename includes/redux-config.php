@@ -233,38 +233,29 @@ if (!class_exists('Redux_Framework_sample_config')) {
                 $sampleHTML = $wp_filesystem->get_contents(dirname(__FILE__) . '/info-html.html');
             }
 
-
-
-
             // ACTUAL DECLARATION OF SECTIONS
 			//CPG
+
+            $response = wp_remote_get('http://api.bootswatch.com/3');
+            $body = wp_remote_retrieve_body($response);
+            $bootswatch = json_decode($body);
+            $bootstrap_options = array('bootstrap' => 'Bootstrap (Original)');
+
+            foreach ($bootswatch->themes as $swatch)
+            	$bootstrap_options[strtolower($swatch->name)] = $swatch->name;
 			
             $this->sections[] = array(
                 'icon' => 'el-icon-website',
                 'title' => __('Styling Options', 'redux-framework-demo'),
                 'fields' => array(
                     
-                   			
 					array(
                         'id' => 'stylesheet',
                         'type' => 'radio',
                         'title' => __('Theme Stylesheet', 'redux-framework-demo'),
                         'subtitle' => __('Select your color and design scheme.', 'redux-framework-demo'),
                         'desc' => __('Credits for theme styles: <a href="https://github.com/twbs/bootstrap/">Bootstrap</a> and <a href="https://github.com/thomaspark/bootswatch/">Bootswatch</a>'),
-                        'options' => array(
-								'bootstrap' => 'Bootstrap (Original)',
-								'amelia' => 'Amelia',
-								'cerulean' => 'Cerulean',
-								'cosmo' => 'Cosmo',
-								'cyborg' => 'Cyborg',
-								'darkly' => 'Darkly',
-								'flatly' => 'Flatly',
-								'lumen' => 'Lumen',
-								'simplex' => 'Simplex',
-								'slate' => 'Slate',
-								'superhero' => 'Superhero',
-								'yeti' => 'Yeti'
-								), 
+                        'options' => $bootstrap_options,
                         'default' => 'bootstrap'
                     ),
 					

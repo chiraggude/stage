@@ -1,20 +1,32 @@
 <?php
 // Enqueue JS scripts and CSS styles for the theme
 function wpbs_styles_scripts() {
-	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
-    wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.css');
+    global $redux_demo;
+    if (!empty($redux_demo['stylesheet']) && $redux_demo['stylesheet'] != 'bootstrap')
+        wp_enqueue_style( 'bootstrap', '//netdna.bootstrapcdn.com/bootswatch/latest/' . $redux_demo['stylesheet'] . '/bootstrap.min.css' );
+    else
+        wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css' );
+
+    wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+    wp_enqueue_style( 'mmenu', get_template_directory_uri() . '/assets/css/jquery.mmenu.css' );
+    wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
+
+    if (!empty($redux_demo['css-code']))
+        wp_add_inline_style( 'theme-style', $redux_demo['css-code'] );
+
     // Enqueue JS scripts globally
-	wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js', array( 'jquery' ), '3.2.0' );
-	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.5.4', false);
-    wp_enqueue_script( 'wpbs', get_template_directory_uri() . '/assets/js/wpbs.js', array( 'jquery' ), '1.1.0', true );
-	wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.4.2', false );
+    wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.6.0', true);
+    wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.7.3', true );
     // Enqueue JS scipts for all pages except the front_page(home page)
     if (! is_front_page()) {
-    wp_enqueue_script( 'share', get_template_directory_uri() . '/assets/js/share.min.js', array(), '0.4.1', true );
-    wp_enqueue_script( 'scroll-nav', get_template_directory_uri() . '/assets/js/jquery.scrollNav.min.js', array( 'jquery' ), '2.2.0', false );
-    wp_enqueue_script( 'scroll-to-fixed', get_template_directory_uri() . '/assets/js/jquery-scrolltofixed-min.js', array( 'jquery' ), '1.0.6', false );
-    wp_enqueue_script( 'validate', get_template_directory_uri() . '/assets/js/jquery.validate.min.js', array( 'jquery' ), '1.13.0', false );
+        wp_enqueue_script( 'share', get_template_directory_uri() . '/assets/js/share.min.js', array(), '0.5.0', true );
+        wp_enqueue_script( 'scroll-nav', get_template_directory_uri() . '/assets/js/jquery.scrollNav.min.js', array( 'jquery' ), '2.4.0', true );
+        wp_enqueue_script( 'scroll-to-fixed', get_template_directory_uri() . '/assets/js/jquery-scrolltofixed-min.js', array( 'jquery' ), '1.0.6', true );
+        wp_enqueue_script( 'validate', get_template_directory_uri() . '/assets/js/jquery.validate.min.js', array( 'jquery' ), '1.13.1', true );
     }
+    wp_enqueue_script( 'wpbs', get_template_directory_uri() . '/assets/js/wpbs.js', array( 'jquery' ), '1.1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'wpbs_styles_scripts' );
 
@@ -37,15 +49,14 @@ add_filter( 'wp_head', 'wpbs_adminbar_css' );
 
 
 function wpbs_setup() {
-// Switch default core markup for search form, comment form, and comments to output valid HTML5. 
-add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
-// Enable support for Post Thumbnails
-add_theme_support( 'post-thumbnails' );
-// Add RSS feed links to <head> for posts and comments.
-add_theme_support( 'automatic-feed-links' );
+    // Switch default core markup for search form, comment form, and comments to output valid HTML5. 
+    add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
+    // Enable support for Post Thumbnails
+    add_theme_support( 'post-thumbnails' );
+    // Add RSS feed links to <head> for posts and comments.
+    add_theme_support( 'automatic-feed-links' );
 }
 add_action( 'after_setup_theme', 'wpbs_setup' );
-
 
 // Register bootstrap navigation walker
 require get_template_directory() . '/includes/wp_bootstrap_navwalker.php';
@@ -65,8 +76,6 @@ require get_template_directory() . '/includes/comments-list.php';
 // Template tags for excerpts (search results, blog list etc.)
 require get_template_directory() . '/includes/excerpts.php';
 
-
-		
 //  Register TGM_Plugin_Activation class to install Redux Framework.
 require_once dirname( __FILE__ ) . '/includes/tgm-plugin-activation.php';
 
