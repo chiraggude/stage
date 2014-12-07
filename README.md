@@ -1,11 +1,11 @@
 # STAGE - WordPress Theme Framework 
 
-STAGE is a sleek and modern starter theme built with Bootstrap 3.2.0 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
+STAGE is a sleek and modern starter theme built with Bootstrap 3.3.0 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
 
 #### Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 
 ## Features
-* 12 Column Responsive Layout based on Bootstrap 3.2.0
+* 12 Column Responsive Layout based on Bootstrap 3.3.0
 * 2 Homepage layouts - Scrolling Banner & Image Slider
 * 2 Blog layouts - List & Grid with pagination
 * 11 theme styles from Bootswatch
@@ -99,12 +99,6 @@ In WordPress Admin backend, go to Appearance >  Widgets
 
 Now your website should look like this [screenshot](https://db.tt/HDtLZ6Yd)
 
----
-
-**NOTE**: I have noticed a bug in WP 3.8.1 where widgets don't expand in the admin area. This bug was present in Chrome, Firefox  & IE. A quick fix was to click on the "screen options" at the top of the Widgets page in the admin area and select "Enable accessibility mode"
-
----
-
 
 ### Tips & Tricks
 * **IE8 Compatibility** - The bootstrap.min.css file should not be hosted on a CDN, instead it should be hosted on your server for respond.js to work. 
@@ -137,18 +131,18 @@ Add native WordPress support for:
 * Internationalization
 
 ## Built With
-* WordPress 3.9.2
-* Bootstrap 3.2.0
-* MMenu 4.4.2
-* Redux Framework 3.3.6
-* Font Awesome 4.1.0
-* jQuery Validation Plugin 1.13.0
+* WordPress 4.0.1
+* Bootstrap 3.3.0
+* MMenu 4.7.3
+* Redux Framework 3.9.4
+* Font Awesome 4.2.0
+* jQuery Validation Plugin 1.13.1
 * [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker)
 * TGM  Plugin Activation class 2.4.0 
-* NiceScroll v3.5.4
-* ScrollNav 2.2.0
+* NiceScroll v3.6.0
+* ScrollNav 2.4.0
 * ScrollToFixed 1.0.6
-* [Share 0.4.1](https://github.com/carrot/share-button)
+* [Share 0.5.0](https://github.com/carrot/share-button)
 
 
 ===================
