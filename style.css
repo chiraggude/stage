@@ -1,111 +1,112 @@
 /*
 Theme Name: STAGE 
 Theme URI: http://turizon.in
-Description:  Sleek and modern starter theme built with Bootstrap 3.3.0. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
+Description: Sleek and modern starter theme built with Bootstrap 3.3.0. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
 Author: Chirag Gude
 Author URI: http://turizon.in
 Version: 1.9
 Tags: responsive-layout,bootstrap-3, fluid-layout, clean, mobile
-
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-body { padding-top: 50px}
-#page-content { padding-top: 20px }
+body { padding-top: 50px; }
+#page-content { padding-top: 20px; padding-bottom: 40px; }
 
 /* Typography */
-.wpbs-muted {text-transform:uppercase; color: #767676; font-weight:bold; text-decoration: none;}
-.wpbs-very-muted {text-transform:uppercase; color: #ababab; font-weight:bold; display:inline-block;}
-#category a:link, #category a:visited {color: #ababab}
+.wpbs-muted { text-transform: uppercase; color: #767676; font-weight: bold; text-decoration: none; }
+.wpbs-very-muted { text-transform: uppercase; color: #ABABAB; font-weight: bold; display: inline-block; }
+#category a:link, #category a:visited { color: #ABABAB; }
 
 /* Comments */
-.tz-comment-list {padding-left: 0px ; } 
-.tz-comment-meta {padding-left: 10px ; }
+.tz-comment-list { padding-left: 0; } 
+.tz-comment-meta { padding-left: 10px; }
 /* The identifier "submit" is used in comments.php */
-#submit { color: #FFF; background-color: #428BCA; border-color: #357EBD; }
+#submit { color: #FFFFFF; background-color: #428BCA; border-color: #357EBD; }
 /* Hide orginal WP submit button (see custom submit button in comments-template-tags.php */
 .form-submit { display: none; }
 
 /* Search */
-.search-highlight { background:#f9e491; }
-.mobile-search {float: right; padding: 15px 20px 0px 0px; color: #a4a4a4;}
+.search-highlight { background: #F9E491; }
+.mobile-search { float: right; padding: 15px 20px 0 0; color: #A4A4A4; }
 /* Position Search modal to center of the page */
-#search-modal{height: 400px; top: calc(50% - 200px);}
+#search-modal{ height: 400px; top: calc(50% - 200px); }
 
 /* ScrollNav.js */
-.scroll-nav__heading { text-transform:uppercase; color: #979797; font-weight:bold; display:inline-block; padding-left:17px; padding-bottom:10px;}
-.cpg-nav-pane { left: auto !important;  width:175px; }
-.cpg-nav-pane.scroll-to-fixed-fixed { left: auto !important;  width:175px;  }
+.scroll-nav__heading { text-transform: uppercase; color: #979797; font-weight: bold; display: inline-block; padding-left: 17px; padding-bottom: 10px; }
+.cpg-nav-pane { left: auto !important; width: 175px; }
+.cpg-nav-pane.scroll-to-fixed-fixed { left: auto !important; width: 175px; }
 
 /* Share.js button */
-#sharebutton.sharer-0 label {background: #E6E6E6;}
+#sharebutton.sharer-0 label { background: #E6E6E6; }
 
 /* Navbar */
-.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0px;}
+.user-photo { max-width: 40px; display: inline-block; margin: -10px 10px -10px 0; }
 
 /* For MMenu.js */
-.navbar {width: 100%;}
-.left-navbar-toggle { color: #777; position: relative;  float: left;  padding: 13px 15px 0px 15px}
-.left-navbar-toggle:active { color: orange; }
-@media (min-width: 768px) { .left-navbar-toggle { margin-left: -20px } }
+.navbar { width: 100%; }
+.left-navbar-toggle { color: #777; position: relative; float: left; padding: 13px 15px 0 15px; }
+.left-navbar-toggle:active { color: #FFA500; }
 
 /* Pagination on pages with custom queries - eg. post-grid */
-.page-numbers.current {background-color: #428BCA; color:#fff}
+.page-numbers.current { background-color: #428BCA; color: #FFFFFF; }
 
 /* Parallax Background on home-page */
-.parallax-background{ background:  url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0px 250px 0px; color: #ededed; background-size: cover; margin-top:-20px;}
-.parallax-content{ text-align: center; margin-top: -130px;}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { .parallax-content{margin-top: -80px; }}
-@media (min-width: 992px) { .parallax-h1{ font-size: 55px; color:#ededed} .parallax-h3{ font-size: 35px; color:#ededed}}
+.parallax-background{ background: url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0 250px 0; color: #EDEDED; background-size: cover; margin-top: -20px; }
+.parallax-content{ text-align: center; margin-top: -130px; }
 
 /* Footer */
-.footer-menu {background-color:#34495e; padding-top: 1em; padding-bottom:1em; font-weight: bold; text-transform: uppercase; }
-.footer-widgets-panel {background-color:#ecf0f1; padding-top: 2em; padding-bottom:4em; }
-.footer-credits {background-color:#fafafa; padding-top: 1em; padding-bottom:1em; }
+.footer-menu { background-color: #34495E; padding-top: 1em; padding-bottom: 1em; font-weight: bold; text-transform: uppercase; }
+.footer-widgets-panel { background-color: #ECF0F1; padding-top: 2em; padding-bottom: 4em; }
+.footer-credits { background-color: #FAFAFA; padding-top: 1em; padding-bottom: 1em; }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-.carousel { height: 400px;   margin-bottom: 20px; margin-top: -20px;}
+.carousel { height: 400px; margin-bottom: 20px; margin-top: -20px; }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {   z-index: 10; }
+.carousel-caption { z-index: 10; }
 /* Declare heights because of positioning of img element */
-.carousel .item { height: 400px;  background-color: #777; }
-.carousel-inner > .item > img {   position: absolute;  top: 0;  left: 0;  min-width: 100%;  height: 400px;}
+.carousel .item { height: 400px; background-color: #777777; }
+.carousel-inner > .item > img { position: absolute; top: 0; left: 0; min-width: 100%; height: 400px; }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Pad the edges of the mobile views a bit */
-.marketing {  padding-left: 15px;  padding-right: 15px;}
+.marketing { padding-left: 15px; padding-right: 15px; }
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {  text-align: center;  margin-bottom: 20px;}
-.marketing h2 {  font-weight: normal;}
-.marketing .col-lg-4 p {  margin-left: 10px;  margin-right: 10px;}
+.marketing .col-lg-4 { text-align: center; margin-bottom: 20px; }
+.marketing h2 { font-weight: normal; }
+.marketing .col-lg-4 p { margin-left: 10px; margin-right: 10px; }
 
 /* Featurettes
 ------------------------- */
-.featurette-divider {  margin: 80px 0; /* Space out the Bootstrap <hr> more */}
+.featurette-divider { margin: 80px 0; /* Space out the Bootstrap <hr> more */}
 /* Thin out the marketing headings */
-.featurette-heading {  font-weight: 300;  line-height: 1;  letter-spacing: -1px;}
+.featurette-heading { font-weight: 300; line-height: 1; letter-spacing: -1px; }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
-  /* Remove the edge padding needed for mobile */
-  .marketing {    padding-left: 0;    padding-right: 0;  }
-  /* Navbar positioning foo */
-  .navbar-wrapper {    margin-top: 20px;  }
-  .navbar-wrapper .container {    padding-left:  15px;    padding-right: 15px;  }
-  .navbar-wrapper .navbar {    padding-left:  0;    padding-right: 0;  }
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {    border-radius: 4px;  }
-  /* Bump up size of carousel content */
-  .carousel-caption p {    margin-bottom: 20px;    font-size: 21px;    line-height: 1.4;  }
-  .featurette-heading {    font-size: 50px;  }
+    /* Remove the edge padding needed for mobile */
+    .marketing { padding-left: 0; padding-right: 0; }
+    /* Navbar positioning foo */
+    .navbar-wrapper { margin-top: 20px; }
+    .navbar-wrapper .container { padding-left: 15px; padding-right: 15px; }
+    .navbar-wrapper .navbar { padding-left: 0; padding-right: 0; }
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar { border-radius: 4px; }
+    /* Bump up size of carousel content */
+    .carousel-caption p { margin-bottom: 20px; font-size: 21px; line-height: 1.4; }
+    .featurette-heading { font-size: 50px; }
+    .left-navbar-toggle { margin-left: -20px; }
+    /* Parallax Background on home-page */
+    .parallax-content{ margin-top: -80px; }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {  margin-top: 120px; }
+    .featurette-heading { margin-top: 120px; }
+    /* Parallax Background on home-page */
+    .parallax-h1{ font-size: 55px; color: #EDEDED; }
+    .parallax-h3{ font-size: 35px; color: #EDEDED; }
 }
