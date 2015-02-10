@@ -4,14 +4,14 @@ Theme URI: http://turizon.in
 Description: STAGE is a sleek and modern starter theme built with Bootstrap 3.3.2. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy to customize. Creating an impressive website with WordPress has never been easier.
 Author: Chirag Gude
 Author URI: http://turizon.in
-Version: 1.9.1
+Version: 1.9.2
 Tags: responsive-layout,bootstrap-3, fluid-layout, clean, mobile
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-body { padding-top: 50px; }
-#page-content { padding-top: 20px; padding-bottom: 40px; }
+
+#page-content { padding-top: 50px; padding-bottom: 40px; }
 
 /* Typography */
 .wpbs-muted { text-transform: uppercase; color: #767676; font-weight: bold; text-decoration: none; }
@@ -52,7 +52,7 @@ body { padding-top: 50px; }
 .page-numbers.current { background-color: #428BCA; color: #FFFFFF; }
 
 /* Parallax Background on home-page */
-.parallax-background{ background: url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0 250px 0; color: #EDEDED; background-size: cover; margin-top: -20px; }
+.parallax-background{ background: url(assets/images/banner-background.jpg) no-repeat fixed; height: 200px; padding: 170px 0 250px 0; color: #EDEDED; background-size: cover; margin-top: -50px; }
 .parallax-content{ text-align: center; margin-top: -130px; }
 
 /* Footer */
@@ -63,7 +63,7 @@ body { padding-top: 50px; }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
-.carousel { height: 400px; margin-bottom: 20px; margin-top: -20px; }
+.carousel { height: 400px; margin-bottom: 20px; margin-top: -50px; }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption { z-index: 10; }
 /* Declare heights because of positioning of img element */

@@ -18,8 +18,7 @@ function wpbs_styles_scripts() {
     // Enqueue JS scripts globally
     wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js', array( 'jquery' ), false, true );
-	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.6.0', true);
-    wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.7.3', true );
+    wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.7.5', true );
     
 	// Enqueue JS scipts for all pages except the front_page(home page)
     if (! is_front_page()) {
@@ -36,15 +35,16 @@ add_action( 'wp_enqueue_scripts', 'wpbs_styles_scripts' );
 function wpbs_adminbar_css() {
     if ( is_admin_bar_showing() ) { 
        echo '<style  type="text/css">
-            @media (max-width: 767px) {
-            .mm-fixed-top { top: 46px !important; }
-            #wpadminbar { position: fixed !important; }
-            }
-            @media (min-width: 768px) {
-            .navbar-fixed-top { top: 32px !important; }
-            .mm-menu { top: 32px !important; }
-            }
-        </style>';
+				@media (max-width: 767px) {
+					.mm-fixed-top { top: 46px !important; }
+					html.mm-opened body { margin-top: -46px; }
+					#wpadminbar { position: fixed; }
+				}
+				@media (min-width: 768px) {
+					.navbar-fixed-top {  margin-top:32px;}
+					html.mm-opened body { margin-top: -32px; }
+				}
+			</style>';
     } 
 }
 add_filter( 'wp_head', 'wpbs_adminbar_css' );

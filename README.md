@@ -1,6 +1,6 @@
 # STAGE - WordPress Theme Framework 
 
-STAGE is a sleek and modern starter theme built with Bootstrap 3.3.0 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
+STAGE is a sleek and modern starter theme built with Bootstrap 3.3.2 and designed to be a flexible foundation for quicker WordPress development. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. STAGE was built from the ground-up to keep the codebase compact and easy for you to customize. Creating an impressive website with WordPress has never been easier!
 
 #### Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 
@@ -134,15 +134,14 @@ Add native WordPress support for:
 * Internationalization
 
 ## Built With
-* WordPress 4.4.0
+* WordPress 4.1.0
 * Bootstrap 3.3.2
-* MMenu 4.7.3
+* MMenu 4.7.5
 * Redux Framework 3.4.1
 * Font Awesome 4.3.0
 * jQuery Validation Plugin 1.13.1
 * [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker)
-* TGM  Plugin Activation class 2.4.0 
-* NiceScroll v3.6.0
+* TGM  Plugin Activation class 2.4.0
 * ScrollNav 2.4.0
 * ScrollToFixed 1.0.6
 * [Share 0.5.0](https://github.com/carrot/share-button)

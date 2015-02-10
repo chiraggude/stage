@@ -90,21 +90,6 @@ jQuery(document).ready(function(){
 
 
 /////////////////////////////////////////////////
-// NiceScroll.js
-/////////////////////////////////////////////////
-jQuery(document).ready( function() {  
-    jQuery("html").niceScroll( {
-        cursorcolor:"#474747", cursorwidth: "8px", mousescrollstep:"60", zindex:"10000", cursoropacitymax:"0.5", scrollspeed:"30", hidecursordelay:"2000"});
-});
-	
-jQuery(document).ready(function() {
-  jQuery('[data-toggle=offcanvas]').click(function() {
-    jQuery('.row-offcanvas').toggleClass('active');
-  });
-});
-
-
-/////////////////////////////////////////////////
 // Validate the comment form when it is submitted
 /////////////////////////////////////////////////
 if(jQuery('#commentform').length > 0) { //checks if div element #commentform exists
