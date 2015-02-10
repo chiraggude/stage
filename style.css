@@ -1,10 +1,10 @@
 /*
 Theme Name: STAGE 
 Theme URI: http://turizon.in
-Description: Sleek and modern starter theme built with Bootstrap 3.3.0. This theme is packed with multiple Page Templates, Menu Locations, Widget Areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy for you to customize. Creating an impressive website with WordPress has never been easier.
+Description: STAGE is a sleek and modern starter theme built with Bootstrap 3.3.2. This theme is packed with multiple page templates, menu locations, widget areas and some unique features like the off-canvas menu, scrollbar etc. This theme was built from the ground-up to keep the theme compact and easy to customize. Creating an impressive website with WordPress has never been easier.
 Author: Chirag Gude
 Author URI: http://turizon.in
-Version: 1.9
+Version: 1.9.1
 Tags: responsive-layout,bootstrap-3, fluid-layout, clean, mobile
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -90,16 +90,17 @@ body { padding-top: 50px; }
 @media (min-width: 768px) {
     /* Remove the edge padding needed for mobile */
     .marketing { padding-left: 0; padding-right: 0; }
-    /* Navbar positioning foo */
+    /* Navbar positioning */
     .navbar-wrapper { margin-top: 20px; }
     .navbar-wrapper .container { padding-left: 15px; padding-right: 15px; }
     .navbar-wrapper .navbar { padding-left: 0; padding-right: 0; }
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar { border-radius: 4px; }
+	/* Position the left sidebar toggle button */
+    .left-navbar-toggle { margin-left: -20px; }
     /* Bump up size of carousel content */
     .carousel-caption p { margin-bottom: 20px; font-size: 21px; line-height: 1.4; }
-    .featurette-heading { font-size: 50px; }
-    .left-navbar-toggle { margin-left: -20px; }
+    .featurette-heading { font-size: 50px; }	
     /* Parallax Background on home-page */
     .parallax-content{ margin-top: -80px; }
 }

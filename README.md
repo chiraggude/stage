@@ -5,7 +5,8 @@ STAGE is a sleek and modern starter theme built with Bootstrap 3.3.0 and designe
 #### Live demo: [http://wp.turizon.co.in/](http://wp.turizon.co.in/)
 
 ## Features
-* 12 Column Responsive Layout based on Bootstrap 3.3.0
+
+* 12 Column Responsive Layout based on Bootstrap 3.3.2
 * 2 Homepage layouts - Scrolling Banner & Image Slider
 * 2 Blog layouts - List & Grid with pagination
 * 11 theme styles from Bootswatch
@@ -73,6 +74,7 @@ Now if you go to your homepage, your website should look like this [screenshot](
 ## Get Started
 
 #### Homepage & Blog 
+
 In WordPress Admin backend, go to Settings >  Reading 
 * Select the radio button for "A static page" 
 * For the "Front page", select the page "Home" or "Home with Slider" 
@@ -83,6 +85,7 @@ In WordPress Admin backend, go to Settings >  Reading
 Now your website should look like this [screenshot](https://db.tt/zJnSHZFQ)
 
 #### Menus
+
 In WordPress Admin backend, go to Appearance >  Menus 
 * Click on the "Manage Locations" tab on the top
 * Select "Menu 1" as Primary Menu
@@ -93,6 +96,7 @@ In WordPress Admin backend, go to Appearance >  Menus
 Now your website should look like this [screenshot](https://db.tt/3BKijoSh)
 
 #### Widgets
+
 In WordPress Admin backend, go to Appearance >  Widgets
 * Drag one or more widgets into the "Main Sidebar" and "Left Sidebar"
 * Drag one or more widget in to the following Widget Areas: Footer Column 1, 2, 3 and 4
@@ -101,6 +105,7 @@ Now your website should look like this [screenshot](https://db.tt/HDtLZ6Yd)
 
 
 ### Tips & Tricks
+
 * **IE8 Compatibility** - The bootstrap.min.css file should not be hosted on a CDN, instead it should be hosted on your server for respond.js to work. 
 * **Theme File Structure** - COMING SOON
 
@@ -120,22 +125,20 @@ STAGE is theme framework as defined [here](http://codex.wordpress.org/Theme_Fram
 I needed a starter theme to serve as the code base for all my WordPress projects. There are lots of great theme frameworks already available, but none suited my particular needs. This theme is my first attempt at forging a framework that fits my particular tastes. Perhaps other like-minded developers will like it too.
 
 
-
 ## Road Map
 
 Add native WordPress support for:
 * Featured Content
 * Post-Formats
-* Custom Backgrounds
 * Visual Editor Styles
 * Internationalization
 
 ## Built With
-* WordPress 4.0.1
-* Bootstrap 3.3.0
+* WordPress 4.4.0
+* Bootstrap 3.3.2
 * MMenu 4.7.3
-* Redux Framework 3.9.4
-* Font Awesome 4.2.0
+* Redux Framework 3.4.1
+* Font Awesome 4.3.0
 * jQuery Validation Plugin 1.13.1
 * [WP Bootstrap Navwalker 2.0.4](https://github.com/twittem/wp-bootstrap-navwalker)
 * TGM  Plugin Activation class 2.4.0 
@@ -147,8 +150,3 @@ Add native WordPress support for:
 
 ===================
 That's it folks!
-
-
-
-
-

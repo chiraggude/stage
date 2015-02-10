@@ -1,4 +1,5 @@
 <?php
+
 // Enqueue JS scripts and CSS styles for the theme
 function wpbs_styles_scripts() {
     global $redux_demo;
@@ -19,7 +20,8 @@ function wpbs_styles_scripts() {
 	wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'nicescroll', get_template_directory_uri() . '/assets/js/jquery.nicescroll.min.js', array('jquery'), '3.6.0', true);
     wp_enqueue_script( 'mmenu', get_template_directory_uri() . '/assets/js/jquery.mmenu.min.js', array('jquery'), '4.7.3', true );
-    // Enqueue JS scipts for all pages except the front_page(home page)
+    
+	// Enqueue JS scipts for all pages except the front_page(home page)
     if (! is_front_page()) {
         wp_enqueue_script( 'share', get_template_directory_uri() . '/assets/js/share.min.js', array(), '0.5.0', true );
         wp_enqueue_script( 'scroll-nav', get_template_directory_uri() . '/assets/js/jquery.scrollNav.min.js', array( 'jquery' ), '2.4.0', true );
@@ -51,8 +53,10 @@ add_filter( 'wp_head', 'wpbs_adminbar_css' );
 function wpbs_setup() {
     // Switch default core markup for search form, comment form, and comments to output valid HTML5. 
     add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
+	
     // Enable support for Post Thumbnails
     add_theme_support( 'post-thumbnails' );
+	
     // Add RSS feed links to <head> for posts and comments.
     add_theme_support( 'automatic-feed-links' );
 }
